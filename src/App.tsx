@@ -132,7 +132,11 @@ export default function App() {
                     <div className="hidden sm:flex absolute left-8 md:left-1/2 w-12 h-12 rounded-full bg-[#0a0a0a] border-2 border-amber-400 items-center justify-center -translate-x-1/2 z-10 font-serif text-amber-400 font-medium">
                       {item.step}
                     </div>
-                    <div className={`sm:w-1/2 ${i % 2 === 0 ? 'md:text-left' : 'md:text-right'} pl-16 sm:pl-0`}>
+                    <div
+                      className={`sm:w-1/2 pl-0 sm:pl-20 md:pl-0 ${
+                        i % 2 === 0 ? 'md:text-left md:pl-16' : 'md:text-right md:pr-16'
+                      }`}
+                    >
                       <div className="sm:hidden text-amber-400 font-serif font-medium mb-2">Step {item.step}</div>
                       <h3 className="text-2xl font-medium text-zinc-50 mb-3">{item.title}</h3>
                       <p className="text-zinc-400 leading-relaxed">{item.desc}</p>
