@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, MessageCircle, Monitor, LayoutTemplate, Search, Wrench, Briefcase, CheckCircle2, Mail, ExternalLink, Compass } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'motion/react';
+import founderPhoto from './img/1.jpg';
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -275,7 +276,7 @@ export default function App() {
           <div className="max-w-4xl mx-auto">
             <motion.div {...fadeIn} className="flex flex-col md:flex-row items-center gap-12">
               <div className="w-48 h-48 md:w-64 md:h-64 shrink-0 rounded-full overflow-hidden border-4 border-zinc-800 relative">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=800" alt="Rutuja Sonwane" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+                <img src={founderPhoto} alt="Rutuja Sonwane" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
               </div>
               <div>
                 <h2 className="font-serif text-3xl md:text-4xl font-medium text-zinc-50 mb-6">About the Founder</h2>
