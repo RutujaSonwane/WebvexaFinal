@@ -277,7 +277,7 @@ export default function App() {
               <h2 className="font-serif text-3xl md:text-4xl font-medium text-zinc-50">About the Founder</h2>
               <div className="space-y-4 text-lg text-zinc-400 leading-relaxed max-w-3xl mx-auto">
                 <p>
-                  "Hi, I'm <span className="text-zinc-50 font-medium">Rutuja Sonwane</span> â€” an engineering graduate passionate about building modern web experiences."
+                  "Hi, I'm <span className="text-zinc-50 font-medium">Rutuja Sonwane</span> ” an engineering graduate passionate about building modern web experiences."
                 </p>
                 <p>
                   Webvexa was born from a simple idea: <span className="text-amber-200 italic">every shop deserves a digital home.</span> We bridge the gap between traditional local businesses and the modern digital landscape, making it accessible, beautiful, and affordable.
