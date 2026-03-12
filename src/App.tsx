@@ -64,7 +64,7 @@ export default function App() {
             <motion.div {...fadeIn}>
               <h2 className="text-amber-400 font-medium tracking-widest uppercase text-sm mb-6">Where shops become digital</h2>
               <h1 className="font-serif text-5xl md:text-7xl font-medium text-zinc-50 leading-tight mb-8">
-                We build your digital presence â€” <span className="italic text-zinc-400">beautifully</span> and affordably.
+                We build your digital presence —  <span className="italic text-zinc-400">beautifully</span> and affordably.
               </h1>
               <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl mx-auto leading-relaxed">
                 Webvexa helps local businesses, shops, and entrepreneurs establish a stunning online home without the complexity.
@@ -164,7 +164,7 @@ export default function App() {
                 </div>
                 <h3 className="text-xl font-medium text-zinc-50 mb-2">One-Time Creation</h3>
                 <div className="mb-4">
-                  <span className="text-4xl font-serif text-zinc-50">â‚¹8,000</span>
+                  <span className="text-4xl font-serif text-zinc-50">8,000rs</span>
                   <span className="text-zinc-500"> one-time</span>
                 </div>
                 <p className="text-sm text-zinc-400 mb-8 pb-8 border-b border-zinc-800">Compulsory one-time fee for designing and building your digital home.</p>
@@ -196,12 +196,12 @@ export default function App() {
                 <h3 className="text-xl font-medium text-zinc-50 mb-2">Ongoing Updates</h3>
                 <div className="mb-4 flex flex-wrap items-end gap-x-3 gap-y-1">
                   <div>
-                    <span className="text-4xl font-serif text-zinc-50">â‚¹6,000</span>
+                    <span className="text-4xl font-serif text-zinc-50">6,000rs</span>
                     <span className="text-zinc-500">/year</span>
                   </div>
                   <span className="text-zinc-500 mb-1">or</span>
                   <div>
-                    <span className="text-2xl font-serif text-zinc-50">â‚¹500</span>
+                    <span className="text-2xl font-serif text-zinc-50">500rs</span>
                     <span className="text-zinc-500">/month</span>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ export default function App() {
             <motion.div {...fadeIn} className="mt-12 text-center">
               <p className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-amber-500/10 text-amber-200 text-sm font-medium border border-amber-500/20">
                 <CheckCircle2 className="w-4 h-4" />
-                Domain ownership stays with you â€” always.
+                Domain ownership stays with you — always.
               </p>
             </motion.div>
           </div>
@@ -246,7 +246,7 @@ export default function App() {
 
             <motion.div variants={staggerContainer} initial="initial" whileInView="whileInView" viewport={{ once: true, margin: "-100px" }} className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { title: "CafÃ© Brand", url: "https://red-velvat-cafe.vercel.app/", image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800&h=600" },
+                { title: "Cafe Brand", url: "https://red-velvat-cafe.vercel.app/", image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800&h=600" },
                 { title: "Fitness Studio", url: "https://fitness-web-ochre.vercel.app/", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800&h=600" },
                 { title: "Restaurant", url: "https://midnight-rose-cafe.vercel.app/", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800&h=600" },
               ].map((item, i) => (
@@ -292,7 +292,7 @@ export default function App() {
           <div className="max-w-3xl mx-auto text-center">
             <motion.div {...fadeIn}>
               <h2 className="font-serif text-4xl md:text-5xl font-medium text-zinc-50 mb-6">Ready to go digital?</h2>
-              <p className="text-xl text-zinc-400 mb-12">Get in touch with us today. No forms, no waiting â€” just direct communication.</p>
+              <p className="text-xl text-zinc-400 mb-12">Get in touch with us today. No forms, no waiting — ” just direct communication.</p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
                 <a href="tel:8149875149" className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:border-amber-500/50 transition-colors w-full sm:w-auto">
@@ -338,7 +338,7 @@ export default function App() {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-zinc-800/50 text-center">
         <p className="text-zinc-500 text-sm">
-          Â© 2025 Webvexa. Where shops become digital.
+          © 2025 Webvexa. Where shops become digital.
         </p>
       </footer>
     </div>
